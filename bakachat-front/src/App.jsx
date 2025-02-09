@@ -1,14 +1,10 @@
-import { Box, Typography } from '@mui/material';
-import React from 'react';
 import './App.css';
+import { RouterProvider } from 'react-router-dom';
+import router from './configs/Router';
 
 function App() {
   return (
-    <>
-      <Box>
-        <Typography>jgae</Typography>
-      </Box>
-    </>
+    <RouterProvider router={router} />
   );
 }
 
